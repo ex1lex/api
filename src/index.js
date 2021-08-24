@@ -6,6 +6,6 @@ const app = express();
 const port = process.env.PORT;
 
 app.listen(port, () => {
-    console.log(`Start server: http://localhost:${port}`);
+    console.log(`Start server on port: ${port}`);
     app.use('/', routes);
 });
